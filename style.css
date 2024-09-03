@@ -1,0 +1,194 @@
+/*general style*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/*header styles*/
+header .logo-container{
+  background: black;
+  padding: 18px;
+  color:white;
+  border:5px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo-container .logo {
+  font-size:2em;
+  display: inline-block;
+}
+header .logo-container .logo span{
+  color:red;
+}
+header .logo-container .profile-img{
+  display: inline-block;
+}
+header .logo-container .profile-img img, .user-img img{
+  width:90px;
+  border-radius: 100%;
+  margin-right: 60px;
+}
+header .navbar .navbar-menu{
+  margin:5px;
+border: 3px solid black;
+}
+header .navbar, .navbar-menu nav ul li{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+}
+
+header .navbar .navbar-menu nav ul li {
+  display: inline-block;
+  font-size:2em;
+  text-transform: capitalize;
+}
+header .navbar .navbar-menu nav ul li span{
+  padding-left:5px;
+}
+header .navbar .navbar-menu nav ul li a{
+  text-decoration: none;
+  color:black;
+  
+}
+hr{
+  color: black;
+}
+.user{
+  display: flex;
+}
+.user .user-img img{
+  display:inline-block;
+  margin-left: 20px;
+  width:140px;
+}
+.user .welcome-msg h1{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  font-size:2em;
+  text-transform: capitalize;
+}
+.user .welcome-msg span{
+  font-family: fantasy ;
+}
+.smal{
+  width:1000px;
+  background:#C0C0C0;
+  height:1000px;
+  margin:30px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.general{
+  display: flex;
+  justify-content: center;
+}
+.smal img{
+  width: 380px;
+}
+.smal h1{
+  margin:50px;
+  margin-top: 250px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-size :50px;
+  display: inline-block;
+  font-weight: 500;
+  position: absolute;
+}
+.smal .view{
+  display: flex;
+  justify-content: center;
+  z-index:1;
+  float: right;
+  position: relative;
+  margin: 30px 30px 10px ;
+  width:480px;
+}
+.smal .view img{
+  height :470px;
+}
+.vice{
+  z-index:1;
+  position: relative;
+  margin: 30px 30px 10px ;
+  width:420px;
+}
+.vice .snicker{
+  margin-top:30px;
+}
+.statistics{
+  display: flex;
+  justify-content:space-between;
+}
+.statistics .stats {
+  display: flex;
+  justify-content: space-between;
+}
+.statistics .stats div{
+  display: flex;
+  justify-content: space-between;
+}
+.statistics .stats h2{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 85px;
+  padding-right:85px;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight:500;
+  padding-top:10px;
+  border-bottom:2px solid black;
+}
+.products .latest{
+  width:980px;
+}
+.products .latest h2{
+  font-size:2em;
+  font-weight:500;
+  display:inline-block;
+  text-transform:capitalize;
+  vertical-align: text-bottom;
+}
+.products .latest img{
+  width:100px;
+  border-radius: 25px;
+  margin-left: 20px;
+} 
+.products .latest h2 span{
+  padding-left:440px;
+}
+.products .latest-product{
+  /*display: flex;
+  justify-content: center;*/
+ overflow: scroll;
+ display: flex;
+ justify-content: space-evenly;
+}
+.products .latest-product .items{
+ /* background: #C0C0C0;*/
+  /*width:900px;*/
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+.products .latest-product .items img{
+  width:270px;
+  border-radius:30px;
+}
+.container{
+  padding: 0;
+  margin: 0;
+}
+.row{
+  padding: 0;
+  margin: 0;
+}
+.container .row .col-md-4 img{
+  width :280px;
+  padding:30px;
+  border-radius:50px;
+}
